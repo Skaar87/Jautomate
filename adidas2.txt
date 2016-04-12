@@ -1,0 +1,7 @@
+Wait 1000
+MouseScroll 3
+WaitVerify "{ImageFolder}/1460451491252.png"
+WaitMouseMove "{ImageFolder}/14604500602521.png"
+Click "{ImageFolder}/1460451843786.png" 19 73
+Wait 500
+

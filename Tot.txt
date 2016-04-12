@@ -1,0 +1,17 @@
+// här anropar vi alla txt filer.
+Call "H:\Desktop\jautomate data\scripts\adidas.txt"
+Call "H:\Desktop\jautomate data\scripts\adidas2.txt"
+
+
+//clear csv file
+ClearLog "H:\Desktop\jautomate data\scripts\Pricerunner.csv"
+
+Timestamp
+Set date "{Timestamp}"
+//Log the parameters
+Log "H:\Desktop\jautomate data\scripts/Pricerunner.csv" , "H:\Desktop\jautomate data\scripts\Tot.txt har körts", "{date}"
+
+
+
+
+

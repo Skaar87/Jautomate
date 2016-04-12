@@ -1,0 +1,6 @@
+//clear csv file
+ClearLog "scripts\Pricerunner.csv"
+Timestamp
+Set date {Timestamp}
+//Log the parameters
+Log "scripts/Pricerunner.csv" , "Tot.txt har körts", {date}
